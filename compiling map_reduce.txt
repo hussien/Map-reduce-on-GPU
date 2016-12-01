@@ -1,0 +1,9 @@
+nvcc map_reduce.cu -dc
+nvcc gpu_demo.cu -dc
+nvcc map_reduce.o gpu_demo.o -o map_reduce
+./map_reduce
+
+
+
+
+
